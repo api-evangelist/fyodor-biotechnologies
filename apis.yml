@@ -1,8 +1,31 @@
 aid: fyodor-biotechnologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fyodor-biotechnologies.png
 name: Fyodor Biotechnologies
-description: Fyodor Biotechnologies is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Fyodor Biotechnologies is a Baltimore, Maryland based biotechnology company
+  focused on making malaria diagnosis fast, affordable, and non-invasive. Its
+  flagship product, the Urine Malaria Test (UMT), is a rapid diagnostic that
+  detects active malaria infection from a urine sample in minutes without a
+  blood draw, working much like a home pregnancy test so it can be used at the
+  point of care or at home in regions where malaria is endemic. The test has
+  been validated through partnerships with Johns Hopkins University, Duke
+  University, and the University of Lagos, carries a CE Mark, and has secured
+  regulatory approvals in Nigeria, Cote d'Ivoire, Kenya, and the Democratic
+  Republic of Congo. Fyodor was surfaced as a portfolio company of 500 Global
+  and added to the API Evangelist network. It currently publishes no public
+  developer platform, API, or SDKs; this profile captures its identity and
+  public web properties.
 url: https://raw.githubusercontent.com/api-evangelist/fyodor-biotechnologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +35,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Biotechnology
+- Diagnostics
+- Healthcare
+- Malaria
+- Medical Devices
+- Point of Care
+- Global Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +54,10 @@ maintainers:
 common:
 - type: Website
   url: https://fyodorbio.com
+- type: Support
+  url: https://fyodorbio.com/contact
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
